@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Přihlášení</title>
+        <link rel="stylesheet" type="text/css" href="./public/css/index.css">
+        <link rel="icon" href="./public/svg/fck-flag.svg" type="image/x-icon">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    </head>
+    <body>
+        <header>
+            <section class="nav">
+                <article class="logo">
+                    <img src="./public/svg/fck-flag.svg">
+                    <h2>Šlechtický syndikát</h2>
+                </article>
+                <nav class="topdown">
+                </nav>
+            </section>
+        </header>
+        <main class="login">
+            <section class="login">
+                <article class="img">
+                    <img id="avatar" width="100%" height="100%">
+                </article>
+                <form class="data">
+                    <input v-model="nick" placeholder="Jmeno...">
+                    <input type="password" placeholder="heslo...">
+                    <button type="submit">Přihlasit se</button>
+                </form >
+            </section>
+        </main>
+        <script>
+            new Vue({
+                el: '.login',
+                data: {
+                    users: [
+                        {name: "meduza", url: "./public/users/meduza.jpg"},
+                        {name: "kraken", url: "./public/users/kraken.jpg"},
+                        {name: "upir", url: "./public/users/upir.jpg"},
+                        {name: "drak", url: "./public/users/drak.jpg"},
+                        {name: "hydra", url: "./public/users/hydra.jpg"},
+                        {name: "alatar", url: "./public/users/alatar.jpg"},
+                        {name: "alastor", url: "./public/users/alastor.jpg"},
+                        {name: "merlin", url: "./public/users/merlin.jpg"},
+                        {name: "mordred", url: "./public/users/mordred.jpg"},
+                        {name: "morgana", url: "./public/users/morgana.jpg"}
+                    ],
+                    nick: "start"
+                },
+                methods: {
+                    getCheck: function(nick) {
+                        let isThere = this.users.filter(user => user.name == nick)[0] || null;
+                        let avatar = document.getElementById("avatar");
+                        if (isThere) avatar.src = isThere.url;
+                        else avatar.src = "./public/img/next-thing.jpg";
+                    }
+                },
+                watch: {
+                    nick: function (nick) {
+                        this.getCheck(nick)
+                    }
+                },
+                mounted: function() {
+                    this.nick = "";
+                }
+            })
+        </script>
+    </body>
+</html>

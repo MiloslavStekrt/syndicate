@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="maturita.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="50mm"
+     inkscape:zoom="1.3046037"
+     inkscape:cx="111.52812"
+     inkscape:cy="60.17153"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#fdc82f;stroke-width:0.242472;stroke-opacity:0.5"
+       id="rect846"
+       width="50.992229"
+       height="50.307995"
+       x="-0.5598523"
+       y="0.068368994" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.6862px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.342157"
+       x="-0.090577438"
+       y="32.420044"
+       id="text1744"
+       transform="scale(1.0589107,0.9443667)"><tspan
+         sodipodi:role="line"
+         id="tspan1742"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Z003;-inkscape-font-specification:Z003;fill:#000000;stroke-width:0.342157"
+         x="-0.090577438"
+         y="32.420044">Maturita</tspan></text>
+    <rect
+       style="fill:#ff0000;stroke-width:0.25012;stroke-opacity:0.5"
+       id="rect2810"
+       width="44.844116"
+       height="0.85705453"
+       x="2.6948917"
+       y="16.96479" />
+    <rect
+       style="fill:#ff0000;stroke-width:0.25012;stroke-opacity:0.5"
+       id="rect2810-3"
+       width="44.844116"
+       height="0.85705453"
+       x="2.9486463"
+       y="36.222649" />
+  </g>
+</svg>
